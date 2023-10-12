@@ -24,11 +24,11 @@ export const HeadingContainer = styled.div.attrs((props) => ({
   }
   @media screen and (max-width: 700px) {
     padding-inline: 50px;
-    margin-top: 130px;
+    padding-top: 130px;
   }
   @media screen and (max-width: 400px) {
     padding-inline: 30px;
-    margin-top: 90px;
+    padding-top: 100px;
   }
 `;
 

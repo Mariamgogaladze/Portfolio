@@ -33,9 +33,6 @@ function Sidebar({ toggle, isOpen }: SidebarProps) {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink onClick={() => scrollToSection("home")}>
-            Home
-          </SidebarLink>
           <SidebarLink onClick={() => scrollToSection("about")}>
             About
           </SidebarLink>
